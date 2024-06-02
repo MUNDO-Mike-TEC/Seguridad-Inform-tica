@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #081b29;
+    color: #ededed;
+}
+
+section {
+    background: #0d2a3f;
+    width: 550px;
+    height: 700px;
+    margin: 2cm 10cm 2cm 10cm;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.fondo {
+    padding: 20px;
+}
+
+
+.inicio {
+    width: 50px;
+    height: 100%;
+    text-align: center;
+}
+
+.inicio a {
+    text-decoration: none;
+    color: #ededed;
+    transition: 0.3s;
+}
+
+.inicio a:hover {
+    color: #00abf0;
+}
+
+.mueve {
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+}
+
+img {
+    filter: brightness(.9);
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    margin: 0 70px 0 0;
+}
+.contenedor ul {
+    list-style: none;
+}
+
+.contenedor ul li {
+    margin-bottom: 10px;
+}
+
+.contenedor p {
+    text-align: end;
+    margin-top: 50px;
+}
+.correo {
+    text-decoration: none;
+    color: #ededed;
+    transition: 0.5s;
+}
+
+.correo:hover {
+    color: #00abf0;
+}
+
+/*ESTILO RESPONSIVO GENERAL*/
+@media screen and (max-width: 1024px) {
+
+    .inicio {
+        width: 50px;
+        height: 60%;
+        text-align: center;
+    }
+
+    section {
+        margin: 1cm 20px 0 20px;
+        padding: 20px;
+        width: 80%;
+        height: 0 auto;
+    }
+
+    img {
+        width: 200px;
+    }
+}
+
+img[src="https://www.000webhost.com/static/default.000webhost.com/images/powered-by-000webhost.png"] {
+    display: none;
+}
